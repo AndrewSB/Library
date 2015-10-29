@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46A0AD361B719D6200466082 /* Library.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A0AD351B719D6200466082 /* Library.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460E1B6C1BE1F7AC00573844 /* NSTimer + Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */; };
 		46A0AD3C1B719D6200466082 /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0AD301B719D6200466082 /* Library.framework */; };
 		46A0AD431B719D6200466082 /* LibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0AD421B719D6200466082 /* LibraryTests.swift */; };
 /* End PBXBuildFile section */
@@ -23,9 +23,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer + Closure.swift"; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0AD341B719D6200466082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46A0AD351B719D6200466082 /* Library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
 		46A0AD3B1B719D6200466082 /* LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0AD411B719D6200466082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A0AD421B719D6200466082 /* LibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTests.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		46A0AD321B719D6200466082 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				46A0AD351B719D6200466082 /* Library.h */,
+				460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */,
 				46A0AD331B719D6200466082 /* Supporting Files */,
 			);
 			path = Library;
@@ -109,7 +109,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A0AD361B719D6200466082 /* Library.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460E1B6C1BE1F7AC00573844 /* NSTimer + Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +325,7 @@
 		46A0AD471B719D6200466082 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,12 +336,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tfw.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		46A0AD481B719D6200466082 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
