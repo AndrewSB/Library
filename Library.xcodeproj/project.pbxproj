@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		460E1B6C1BE1F7AC00573844 /* NSTimer + Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */; };
+		460E1B6E1BE1F7E000573844 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1B6D1BE1F7E000573844 /* Delay.swift */; };
 		46A0AD3C1B719D6200466082 /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0AD301B719D6200466082 /* Library.framework */; };
 		46A0AD431B719D6200466082 /* LibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0AD421B719D6200466082 /* LibraryTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer + Closure.swift"; sourceTree = "<group>"; };
+		460E1B6D1BE1F7E000573844 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0AD341B719D6200466082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46A0AD3B1B719D6200466082 /* LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				460E1B6B1BE1F7AC00573844 /* NSTimer + Closure.swift */,
+				460E1B6D1BE1F7E000573844 /* Delay.swift */,
 				46A0AD331B719D6200466082 /* Supporting Files */,
 			);
 			path = Library;
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460E1B6C1BE1F7AC00573844 /* NSTimer + Closure.swift in Sources */,
+				460E1B6E1BE1F7E000573844 /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
