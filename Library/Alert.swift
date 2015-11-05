@@ -12,7 +12,7 @@ import UIKit
 
 extension UIAlertController {
     
-    convenience init(title: String = "Uh oh!", errorMessage: String) {
+    public convenience init(title: String = "Uh oh!", errorMessage: String) {
         self.init(title: title, message: errorMessage, preferredStyle: .Alert)
         self.addAction(UIAlertAction(title: "Ok", style: .Cancel, handler: nil))
     }
