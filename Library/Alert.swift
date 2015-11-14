@@ -10,7 +10,7 @@
 
 import UIKit
 
-extension UIAlertController {
+public extension UIAlertController {
     
     public convenience init(title: String = "Uh oh!", errorMessage: String) {
         self.init(title: title, message: errorMessage, preferredStyle: .Alert)
