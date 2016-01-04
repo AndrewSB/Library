@@ -7,14 +7,12 @@
 //
 
 import Foundation
+import Library
 
-public extension lib {
-    public func accumulator(initial: Int = -1, incrementBy: Int = 1) -> () -> Int {
-        var value = initial
-        func accum() -> Int {
-            value += incrementBy
-            return value
-        }
-        return accum
+public func accumulator(initial: Int = -1, incrementBy: Int = 1) -> () -> Int {
+    var value = initial
+    return {
+        value += incrementBy
+        return value
     }
 }
