@@ -10,8 +10,14 @@ import Foundation
 
 public extension Array {
     
-    public mutating func prepend(newElement: Element) {
+    public mutating func append(newElement: Element) -> [Element] {
+        self.append(newElement)
+        return self
+    }
+    
+    public mutating func prepend(newElement: Element) -> [Element] {
         self = [newElement] + self
+        return self
     }
     
 }
