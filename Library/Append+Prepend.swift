@@ -11,7 +11,7 @@ import Foundation
 public extension Array {
     
     public mutating func append(newElement: Element) -> [Element] {
-        self.append(newElement)
+        self = self + [newElement]
         return self
     }
     
