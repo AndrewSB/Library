@@ -9,7 +9,9 @@
 import Foundation
 
 public extension NSError {
+    
     public convenience init(localizedDescription: String) {
         self.init(domain: NSBundle.mainBundle().bundleIdentifier ?? "", code: -1, userInfo: [NSLocalizedDescriptionKey: localizedDescription])
     }
+    
 }
