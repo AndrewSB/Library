@@ -8,7 +8,13 @@
 
 import Foundation
 
-public func delay(delay:Double, closure:()->()) {
+/**
+ Syntactic sugar for dispatch_after
+ 
+ :param: delay How long to defer running the closure for.
+ :param: closure The closure to execute
+ */
+public func delay(delay: Double, closure: () -> Void) {
     dispatch_after(
         dispatch_time(
             DISPATCH_TIME_NOW,
