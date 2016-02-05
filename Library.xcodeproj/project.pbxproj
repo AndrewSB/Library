@@ -12,6 +12,7 @@
 		465A19561BEFFE4F0046FBF7 /* Accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A19551BEFFE4F0046FBF7 /* Accumulator.swift */; };
 		4687F0801C4C524900B60D97 /* Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687F07F1C4C524900B60D97 /* Append+Prepend.swift */; };
 		469654AE1C4EE75900C655BE /* NSError+Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469654AD1C4EE75900C655BE /* NSError+Make.swift */; };
+		469798C01C648CD400F0B18A /* Optional + GetOrElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469798BF1C648CD400F0B18A /* Optional + GetOrElse.swift */; };
 		46ED3F611BE9850400ABE42C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED3F601BE9850400ABE42C /* Alert.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		465A19551BEFFE4F0046FBF7 /* Accumulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulator.swift; sourceTree = "<group>"; };
 		4687F07F1C4C524900B60D97 /* Append+Prepend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Append+Prepend.swift"; sourceTree = "<group>"; };
 		469654AD1C4EE75900C655BE /* NSError+Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Make.swift"; sourceTree = "<group>"; };
+		469798BF1C648CD400F0B18A /* Optional + GetOrElse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional + GetOrElse.swift"; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0AD341B719D6200466082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46ED3F601BE9850400ABE42C /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				465A19551BEFFE4F0046FBF7 /* Accumulator.swift */,
 				4687F07F1C4C524900B60D97 /* Append+Prepend.swift */,
 				469654AD1C4EE75900C655BE /* NSError+Make.swift */,
+				469798BF1C648CD400F0B18A /* Optional + GetOrElse.swift */,
 				46A0AD341B719D6200466082 /* Info.plist */,
 			);
 			path = Library;
@@ -150,6 +153,7 @@
 				4687F0801C4C524900B60D97 /* Append+Prepend.swift in Sources */,
 				460E1B6C1BE1F7AC00573844 /* NSTimer + Closure.swift in Sources */,
 				469654AE1C4EE75900C655BE /* NSError+Make.swift in Sources */,
+				469798C01C648CD400F0B18A /* Optional + GetOrElse.swift in Sources */,
 				460E1B6E1BE1F7E000573844 /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
