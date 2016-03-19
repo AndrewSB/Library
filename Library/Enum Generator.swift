@@ -15,7 +15,7 @@ public extension EnumCollection {
      
      :returns: An `EnumSequence` struct with all of the cases of the supplied enum
     */
-    static func cases() -> EnumSequence<Self> {
+    static public func cases() -> EnumSequence<Self> {
         return EnumSequence()
     }
 }
@@ -36,8 +36,8 @@ public class SingleEnumGenerator<Enum : Hashable> : EnumGenerator<Enum> {
 }
 
 public class EnumGenerator<Enum : Hashable> : GeneratorType {
-    var rawEnum = 0
-    var done = false
+    public var rawEnum = 0
+    public var done = false
     
     public func next() -> Enum? {
         if done { return nil }

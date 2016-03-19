@@ -8,14 +8,15 @@
 
 import UIKit
 
-class RoundedImageView: UIImageView {
+public class RoundedImageView: UIImageView {
     
+    // TODO: @IBInspectable isn't preserved when the `Library` is imported as a framework. #pleasefixthisapple
     /**
      The corner radius to which the `UIImageView`'s layer is to be clipped
      */
-    @IBInspectable lazy var cornerRadius: CGFloat = self.frame.width / 2
+    @IBInspectable public lazy var cornerRadius: CGFloat = self.frame.width / 2
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         
         self.layer.cornerRadius = cornerRadius
