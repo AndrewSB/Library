@@ -78,3 +78,25 @@ public class RoundedButton: UIButton {
     }
     
 }
+
+public class RoundedLabel: UILabel {
+    
+    /**
+     Whether the label should be use the height or width of the frame to round itself
+     */
+    public var roundBy: RoundedView.RoundBy = .Height
+    
+    // TODO: @IBInspectable isn't preserved when the `Library` is imported as a framework. #pleasefixthisapple
+    /**
+    The corner radius to which the `UILabel`'s layer is to be clipped
+    */
+    @IBInspectable public lazy var cornerRadius: CGFloat = (self.roundBy == .Height ? self.frame.height : self.frame.width) / 2
+    
+    override public func awakeFromNib() {
+        super.awakeFromNib()
+        
+        self.layer.cornerRadius = cornerRadius
+        self.clipsToBounds = true
+    }
+    
+}
