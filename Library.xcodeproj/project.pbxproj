@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		460E1B6C1BE1F7AC00573844 /* NSTimer Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1B6B1BE1F7AC00573844 /* NSTimer Closure.swift */; };
 		460E1B6E1BE1F7E000573844 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1B6D1BE1F7E000573844 /* Delay.swift */; };
+		4644FBCD1C9DFFCD004ACBAF /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644FBCC1C9DFFCD004ACBAF /* Enum Generator.swift */; };
 		465A19561BEFFE4F0046FBF7 /* Accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A19551BEFFE4F0046FBF7 /* Accumulator.swift */; };
 		4687F0801C4C524900B60D97 /* Array Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687F07F1C4C524900B60D97 /* Array Append+Prepend.swift */; };
 		469654AE1C4EE75900C655BE /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469654AD1C4EE75900C655BE /* NSError Make.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		460E1B6B1BE1F7AC00573844 /* NSTimer Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer Closure.swift"; sourceTree = "<group>"; };
 		460E1B6D1BE1F7E000573844 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		4644FBCC1C9DFFCD004ACBAF /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
 		465A19551BEFFE4F0046FBF7 /* Accumulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulator.swift; sourceTree = "<group>"; };
 		4687F07F1C4C524900B60D97 /* Array Append+Prepend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array Append+Prepend.swift"; sourceTree = "<group>"; };
 		469654AD1C4EE75900C655BE /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				469798BF1C648CD400F0B18A /* Optional GetOrElse.swift */,
 				460E1B6B1BE1F7AC00573844 /* NSTimer Closure.swift */,
 				469654AD1C4EE75900C655BE /* NSError Make.swift */,
+				4644FBCC1C9DFFCD004ACBAF /* Enum Generator.swift */,
 				4644FBCB1C9DFF5B004ACBAF /* UI */,
 				46A0AD341B719D6200466082 /* Info.plist */,
 			);
@@ -159,6 +162,7 @@
 				465A19561BEFFE4F0046FBF7 /* Accumulator.swift in Sources */,
 				46ED3F611BE9850400ABE42C /* UIAlertController Alert.swift in Sources */,
 				4687F0801C4C524900B60D97 /* Array Append+Prepend.swift in Sources */,
+				4644FBCD1C9DFFCD004ACBAF /* Enum Generator.swift in Sources */,
 				460E1B6C1BE1F7AC00573844 /* NSTimer Closure.swift in Sources */,
 				469654AE1C4EE75900C655BE /* NSError Make.swift in Sources */,
 				469798C01C648CD400F0B18A /* Optional GetOrElse.swift in Sources */,
