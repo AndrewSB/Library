@@ -8,8 +8,8 @@
 
 import Foundation
 
-protocol EnumCollection : Hashable {}
-extension EnumCollection {
+public protocol EnumCollection : Hashable {}
+public extension EnumCollection {
     /**
      Returns all cases of the enum type `cases()` is called on. The `description` param of the returned `EnumSequence` contains the ❤️ly enum name
      
@@ -20,8 +20,8 @@ extension EnumCollection {
     }
 }
 
-struct EnumSequence<Enum : Hashable> : SequenceType {
-    func generate() -> EnumGenerator<Enum> {
+public struct EnumSequence<Enum : Hashable> : SequenceType {
+    public func generate() -> EnumGenerator<Enum> {
         switch sizeof(Enum) {
         case 0: return SingleEnumGenerator()
         default: return EnumGenerator()
@@ -29,17 +29,17 @@ struct EnumSequence<Enum : Hashable> : SequenceType {
     }
 }
 
-class SingleEnumGenerator<Enum : Hashable> : EnumGenerator<Enum> {
-    override func next() -> Enum? {
+public class SingleEnumGenerator<Enum : Hashable> : EnumGenerator<Enum> {
+    override public func next() -> Enum? {
         return done ? nil : { done = true; return unsafeBitCast((), Enum.self) }()
     }
 }
 
-class EnumGenerator<Enum : Hashable> : GeneratorType {
+public class EnumGenerator<Enum : Hashable> : GeneratorType {
     var rawEnum = 0
     var done = false
     
-    func next() -> Enum? {
+    public func next() -> Enum? {
         if done { return nil }
         
         let enumCase = withUnsafePointer(&rawEnum) { UnsafePointer<Enum>($0).memory }
