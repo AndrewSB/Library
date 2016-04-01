@@ -44,7 +44,7 @@ public class EnumGenerator<Enum : Hashable> : GeneratorType {
         
         let enumCase = withUnsafePointer(&rawEnum) { UnsafePointer<Enum>($0).memory }
         if enumCase.hashValue == rawEnum {
-            rawEnum++
+            rawEnum += 1
             return enumCase
         } else {
             done = true

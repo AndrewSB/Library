@@ -23,7 +23,8 @@ public extension Introspectable where Self: Any {
         get {
             let mirror = Mirror(reflecting: self)
             
-            return mirror.children.reduce([String: Any]()) { (var acc, cur) in
+            return mirror.children.reduce([String: Any]()) { (acc, cur) in
+                var acc = acc // this is temporary, because Swift 3 deprecated var params in functions
                 if let name = cur.label {
                     acc[name] = cur.value
                 }
