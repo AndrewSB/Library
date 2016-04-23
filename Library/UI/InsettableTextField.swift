@@ -8,18 +8,18 @@
 
 import UIKit
 
-class InsettableTextField: UITextField {
+public class InsettableTextField: UITextField {
 
-    @IBInspectable var insetX: CGFloat = 0
-    @IBInspectable var insetY: CGFloat = 0
+    @IBInspectable public var insetX: CGFloat = 0
+    @IBInspectable public var insetY: CGFloat = 0
     
     // placeholder position
-    override func textRectForBounds(bounds: CGRect) -> CGRect {
+    override public func textRectForBounds(bounds: CGRect) -> CGRect {
         return CGRectInset(bounds , insetX , insetY)
     }
     
     // text position
-    override func editingRectForBounds(bounds: CGRect) -> CGRect {
+    override public func editingRectForBounds(bounds: CGRect) -> CGRect {
         return CGRectInset(bounds , insetX , insetY)
     }
     
