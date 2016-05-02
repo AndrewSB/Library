@@ -8,6 +8,9 @@
 
 import UIKit
 
+/**
+ Convenience UIImageView subclass that exposes the `renderingMode` as a instance variable
+ */
 public class RenderedImageView: UIImageView {
     
     public var renderingMode: UIImageRenderingMode = .AlwaysTemplate
