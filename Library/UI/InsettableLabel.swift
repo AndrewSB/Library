@@ -17,5 +17,10 @@ public class InsettableLabel: UILabel {
         let insets = UIEdgeInsets(top: insetY, left: insetX, bottom: insetY, right: insetX)
         super.drawTextInRect(UIEdgeInsetsInsetRect(rect, insets))
     }
-    
+ 
+    override public func sizeThatFits(size: CGSize) -> CGSize {
+        let uninsettedFitSize = super.sizeThatFits(size)
+        
+        return CGSize(width: uninsettedFitSize.width + (2 * insetX), height: uninsettedFitSize.height + (2 * insetY))
+    }
 }
