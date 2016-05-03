@@ -21,6 +21,7 @@
 		4687F0801C4C524900B60D97 /* Array Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687F07F1C4C524900B60D97 /* Array Append+Prepend.swift */; };
 		469654AE1C4EE75900C655BE /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469654AD1C4EE75900C655BE /* NSError Make.swift */; };
 		469798C01C648CD400F0B18A /* Optional GetOrElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469798BF1C648CD400F0B18A /* Optional GetOrElse.swift */; };
+		46B4EBAA1CD8216600C7C2BE /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4EBA91CD8216600C7C2BE /* InsettableLabel.swift */; };
 		46ED3F611BE9850400ABE42C /* UIAlertController Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ED3F601BE9850400ABE42C /* UIAlertController Alert.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		469798BF1C648CD400F0B18A /* Optional GetOrElse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional GetOrElse.swift"; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A0AD341B719D6200466082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B4EBA91CD8216600C7C2BE /* InsettableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableLabel.swift; sourceTree = "<group>"; };
 		46ED3F601BE9850400ABE42C /* UIAlertController Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController Alert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				4644FBD01C9E027D004ACBAF /* RoundedView.swift */,
 				4644FBD41C9E0FD7004ACBAF /* UIButton Title.swift */,
 				4687BD681CCC09C50030F055 /* InsettableTextField.swift */,
+				46B4EBA91CD8216600C7C2BE /* InsettableLabel.swift */,
 				466CCBB81CD690F400DAB261 /* RenderedImageView.swift */,
 				461EDF981CD7E47100D098B6 /* UIViewController UnwrapNavigationController.swift */,
 				461EDF9C1CD80B2A00D098B6 /* UIImage Color.swift */,
@@ -191,6 +194,7 @@
 				4644FBD11C9E027D004ACBAF /* RoundedView.swift in Sources */,
 				4687BD691CCC09C50030F055 /* InsettableTextField.swift in Sources */,
 				466CCBB91CD690F400DAB261 /* RenderedImageView.swift in Sources */,
+				46B4EBAA1CD8216600C7C2BE /* InsettableLabel.swift in Sources */,
 				461EDF9D1CD80B2A00D098B6 /* UIImage Color.swift in Sources */,
 				469654AE1C4EE75900C655BE /* NSError Make.swift in Sources */,
 				469798C01C648CD400F0B18A /* Optional GetOrElse.swift in Sources */,

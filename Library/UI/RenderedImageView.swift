@@ -15,7 +15,7 @@ public class RenderedImageView: UIImageView {
     
     public var renderingMode: UIImageRenderingMode = .AlwaysTemplate
     
-    public override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         
         self.image = self.image!.imageWithRenderingMode(renderingMode)
