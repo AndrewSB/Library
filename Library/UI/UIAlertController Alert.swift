@@ -21,8 +21,13 @@ public extension UIAlertController {
      :returns: An `UIAlertController` instance.
      */
     public convenience init(okayableTitle title: String = "Uh oh!", message: String) {
-        self.init(title: title, message: message, preferredStyle: .Alert)
-        self.addAction(UIAlertAction(title: "Ok", style: .Cancel, handler: nil))
+        #if swift(>=3)
+            self.init(title: title, message: message, preferredStyle: .alert)
+            self.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+        #else
+            self.init(title: title, message: message, preferredStyle: .Alert)
+            self.addAction(UIAlertAction(title: "Ok", style: .Cancel, handler: nil))
+        #endif
     }
     
 }

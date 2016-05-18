@@ -17,12 +17,21 @@ public extension NSTimer {
      
      :returns: The newly-created `NSTimer` instance.
      */
+    #if swift(>=3)
+    public class func schedule(delay: NSTimeInterval, handler: (CFRunLoopTimer?) -> Void) -> NSTimer {
+        let fireDate = delay + CFAbsoluteTimeGetCurrent()
+        let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, 0, 0, 0, handler)!
+        CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, kCFRunLoopCommonModes)
+        return timer
+    }
+    #else
     public class func schedule(delay delay: NSTimeInterval, handler: NSTimer! -> Void) -> NSTimer {
         let fireDate = delay + CFAbsoluteTimeGetCurrent()
         let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, 0, 0, 0, handler)
         CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, kCFRunLoopCommonModes)
         return timer
     }
+    #endif
     
     /**
      Creates and schedules a repeating `NSTimer` instance.
@@ -32,10 +41,19 @@ public extension NSTimer {
      
      :returns: The newly-created `NSTimer` instance.
      */
+    #if swift(>=3)
+    public class func schedule(repeatInterval interval: NSTimeInterval, handler: (CFRunLoopTimer?) -> Void) -> NSTimer {
+        let fireDate = interval + CFAbsoluteTimeGetCurrent()
+        let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, interval, 0, 0, handler)!
+        CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, kCFRunLoopCommonModes)
+        return timer
+    }
+    #else
     public class func schedule(repeatInterval interval: NSTimeInterval, handler: NSTimer! -> Void) -> NSTimer {
         let fireDate = interval + CFAbsoluteTimeGetCurrent()
         let timer = CFRunLoopTimerCreateWithHandler(kCFAllocatorDefault, fireDate, interval, 0, 0, handler)
         CFRunLoopAddTimer(CFRunLoopGetCurrent(), timer, kCFRunLoopCommonModes)
         return timer
     }
+    #endif
 }

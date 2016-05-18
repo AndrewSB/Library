@@ -22,7 +22,11 @@ public extension UIImage {
         UIGraphicsBeginImageContextWithOptions(size, false, 0)
         color.setFill()
         UIRectFill(rect)
+        #if swift(>=3)
+        let image = UIGraphicsGetImageFromCurrentImageContext()!
+        #else
         let image = UIGraphicsGetImageFromCurrentImageContext()
+        #endif
         UIGraphicsEndImageContext()
         return image
     }

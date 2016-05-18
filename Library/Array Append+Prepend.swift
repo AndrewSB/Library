@@ -30,7 +30,11 @@ public extension Array {
      :returns: The same instance as the receiver. This allows chaining.
      */
     public mutating func prependAndChain(newElement: Element) -> [Element] {
-        self.insert(newElement, atIndex: 0)
+        #if swift(>=3.0)
+            self.insert(newElement, at: 0)
+        #else
+            self.insert(newElement, atIndex: 0)
+        #endif
         return self
     }
     

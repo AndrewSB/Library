@@ -13,12 +13,20 @@ import UIKit
  */
 public class RenderedImageView: UIImageView {
     
+    #if swift(>=3)
+    public var renderingMode: UIImageRenderingMode = .alwaysTemplate
+    #else
     public var renderingMode: UIImageRenderingMode = .AlwaysTemplate
+    #endif
+    
     
     override public func awakeFromNib() {
         super.awakeFromNib()
-        
+        #if swift(>=3)
+        self.image = self.image!.withRenderingMode(renderingMode)
+        #else
         self.image = self.image!.imageWithRenderingMode(renderingMode)
+        #endif
     }
     
 }

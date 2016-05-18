@@ -19,7 +19,11 @@ public extension NSError {
      :returns: A `NSError` object.
      */
     public convenience init(localizedDescription: String = "An error occured, try again", code: Int = -1) {
+        #if swift(>=3)
+        self.init(domain: NSBundle.main().bundleIdentifier ?? "", code: code, userInfo: [NSLocalizedDescriptionKey as NSObject: localizedDescription as AnyObject])
+        #else
         self.init(domain: NSBundle.mainBundle().bundleIdentifier ?? "", code: code, userInfo: [NSLocalizedDescriptionKey: localizedDescription])
+        #endif
     }
     
 }

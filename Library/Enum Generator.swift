@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Needs to be rewritten for Swift 3
+#if !swift(>=3)
+
 public protocol EnumCollection : Hashable {}
 public extension EnumCollection {
     /**
@@ -52,3 +55,5 @@ public class EnumGenerator<Enum : Hashable> : GeneratorType {
         }
     }
 }
+
+#endif
