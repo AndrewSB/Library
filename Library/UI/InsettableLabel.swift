@@ -6,6 +6,7 @@
 //  Copyright © 2016 Andrew Breckenridge. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 public class InsettableLabel: UILabel {
@@ -42,3 +43,4 @@ public class InsettableLabel: UILabel {
     #endif
     
 }
+#endif

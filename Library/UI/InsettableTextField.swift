@@ -6,6 +6,7 @@
 //  Copyright © 2016 Andrew Breckenridge. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 public class InsettableTextField: UITextField {
@@ -36,3 +37,4 @@ public class InsettableTextField: UITextField {
     #endif
     
 }
+#endif

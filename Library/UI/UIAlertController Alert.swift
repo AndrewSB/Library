@@ -8,6 +8,7 @@
 
 // Syntactic sugar for error messaging with UIAlertController
 
+#if os(iOS)
 import UIKit
 
 public extension UIAlertController {
@@ -31,3 +32,4 @@ public extension UIAlertController {
     }
     
 }
+#endif

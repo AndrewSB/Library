@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46C39CC31CED346F004974FB /* Accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB21CED346F004974FB /* Accumulator.swift */; };
-		46C39CC41CED346F004974FB /* Array Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB31CED346F004974FB /* Array Append+Prepend.swift */; };
-		46C39CC51CED346F004974FB /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB41CED346F004974FB /* Delay.swift */; };
-		46C39CC61CED346F004974FB /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB51CED346F004974FB /* Enum Generator.swift */; };
-		46C39CC81CED346F004974FB /* Introspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB71CED346F004974FB /* Introspectable.swift */; };
-		46C39CC91CED346F004974FB /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB81CED346F004974FB /* NSError Make.swift */; };
-		46C39CCA1CED346F004974FB /* NSTimer Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CB91CED346F004974FB /* NSTimer Closure.swift */; };
-		46C39CCB1CED346F004974FB /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CBB1CED346F004974FB /* InsettableLabel.swift */; };
-		46C39CCC1CED346F004974FB /* InsettableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CBC1CED346F004974FB /* InsettableTextField.swift */; };
-		46C39CCD1CED346F004974FB /* RenderedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CBD1CED346F004974FB /* RenderedImageView.swift */; };
-		46C39CCE1CED346F004974FB /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CBE1CED346F004974FB /* RoundedView.swift */; };
-		46C39CCF1CED346F004974FB /* UIAlertController Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CBF1CED346F004974FB /* UIAlertController Alert.swift */; };
-		46C39CD01CED346F004974FB /* UIButton Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CC01CED346F004974FB /* UIButton Title.swift */; };
-		46C39CD11CED346F004974FB /* UIImage Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CC11CED346F004974FB /* UIImage Color.swift */; };
-		46C39CD21CED346F004974FB /* UIViewController UnwrapNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CC21CED346F004974FB /* UIViewController UnwrapNavigationController.swift */; };
+		46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD71CED3C22004974FB /* InsettableLabel.swift */; };
+		46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD81CED3C22004974FB /* InsettableTextField.swift */; };
+		46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD91CED3C22004974FB /* RenderedImageView.swift */; };
+		46C39CEA1CED3C22004974FB /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDA1CED3C22004974FB /* RoundedView.swift */; };
+		46C39CEB1CED3C22004974FB /* UIAlertController Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDB1CED3C22004974FB /* UIAlertController Alert.swift */; };
+		46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDC1CED3C22004974FB /* UIButton Title.swift */; };
+		46C39CED1CED3C22004974FB /* UIImage Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDD1CED3C22004974FB /* UIImage Color.swift */; };
+		46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift */; };
+		46C39CEF1CED3C22004974FB /* Accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE01CED3C22004974FB /* Accumulator.swift */; };
+		46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */; };
+		46C39CF11CED3C22004974FB /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE21CED3C22004974FB /* Delay.swift */; };
+		46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE31CED3C22004974FB /* Enum Generator.swift */; };
+		46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE41CED3C22004974FB /* Introspectable.swift */; };
+		46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE51CED3C22004974FB /* NSError Make.swift */; };
+		46C39CF51CED3C22004974FB /* NSTimer Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE61CED3C22004974FB /* NSTimer Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C39CB21CED346F004974FB /* Accumulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulator.swift; sourceTree = "<group>"; };
-		46C39CB31CED346F004974FB /* Array Append+Prepend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array Append+Prepend.swift"; sourceTree = "<group>"; };
-		46C39CB41CED346F004974FB /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		46C39CB51CED346F004974FB /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
-		46C39CB71CED346F004974FB /* Introspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introspectable.swift; sourceTree = "<group>"; };
-		46C39CB81CED346F004974FB /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
-		46C39CB91CED346F004974FB /* NSTimer Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer Closure.swift"; sourceTree = "<group>"; };
-		46C39CBB1CED346F004974FB /* InsettableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableLabel.swift; sourceTree = "<group>"; };
-		46C39CBC1CED346F004974FB /* InsettableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableTextField.swift; sourceTree = "<group>"; };
-		46C39CBD1CED346F004974FB /* RenderedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderedImageView.swift; sourceTree = "<group>"; };
-		46C39CBE1CED346F004974FB /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
-		46C39CBF1CED346F004974FB /* UIAlertController Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController Alert.swift"; sourceTree = "<group>"; };
-		46C39CC01CED346F004974FB /* UIButton Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton Title.swift"; sourceTree = "<group>"; };
-		46C39CC11CED346F004974FB /* UIImage Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage Color.swift"; sourceTree = "<group>"; };
-		46C39CC21CED346F004974FB /* UIViewController UnwrapNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController UnwrapNavigationController.swift"; sourceTree = "<group>"; };
 		46C39CD31CED3498004974FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C39CD71CED3C22004974FB /* InsettableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableLabel.swift; sourceTree = "<group>"; };
+		46C39CD81CED3C22004974FB /* InsettableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableTextField.swift; sourceTree = "<group>"; };
+		46C39CD91CED3C22004974FB /* RenderedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderedImageView.swift; sourceTree = "<group>"; };
+		46C39CDA1CED3C22004974FB /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		46C39CDB1CED3C22004974FB /* UIAlertController Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController Alert.swift"; sourceTree = "<group>"; };
+		46C39CDC1CED3C22004974FB /* UIButton Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton Title.swift"; sourceTree = "<group>"; };
+		46C39CDD1CED3C22004974FB /* UIImage Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage Color.swift"; sourceTree = "<group>"; };
+		46C39CDE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController UnwrapNavigationController.swift"; sourceTree = "<group>"; };
+		46C39CE01CED3C22004974FB /* Accumulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulator.swift; sourceTree = "<group>"; };
+		46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array Append+Prepend.swift"; sourceTree = "<group>"; };
+		46C39CE21CED3C22004974FB /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		46C39CE31CED3C22004974FB /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
+		46C39CE41CED3C22004974FB /* Introspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introspectable.swift; sourceTree = "<group>"; };
+		46C39CE51CED3C22004974FB /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
+		46C39CE61CED3C22004974FB /* NSTimer Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer Closure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		46A0AD261B719D6200466082 = {
 			isa = PBXGroup;
 			children = (
-				46C39CB11CED346F004974FB /* Sources */,
+				46C39CD51CED3C22004974FB /* Library */,
 				46C39CD31CED3498004974FB /* Info.plist */,
 				46A0AD311B719D6200466082 /* Products */,
 			);
@@ -72,34 +72,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46C39CB11CED346F004974FB /* Sources */ = {
+		46C39CD51CED3C22004974FB /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				46C39CB21CED346F004974FB /* Accumulator.swift */,
-				46C39CB31CED346F004974FB /* Array Append+Prepend.swift */,
-				46C39CB41CED346F004974FB /* Delay.swift */,
-				46C39CB51CED346F004974FB /* Enum Generator.swift */,
-				46C39CB71CED346F004974FB /* Introspectable.swift */,
-				46C39CB81CED346F004974FB /* NSError Make.swift */,
-				46C39CB91CED346F004974FB /* NSTimer Closure.swift */,
-				46C39CBA1CED346F004974FB /* UI */,
+				46C39CD61CED3C22004974FB /* UI */,
+				46C39CDF1CED3C22004974FB /* Util */,
 			);
-			path = Sources;
+			path = Library;
 			sourceTree = "<group>";
 		};
-		46C39CBA1CED346F004974FB /* UI */ = {
+		46C39CD61CED3C22004974FB /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				46C39CBB1CED346F004974FB /* InsettableLabel.swift */,
-				46C39CBC1CED346F004974FB /* InsettableTextField.swift */,
-				46C39CBD1CED346F004974FB /* RenderedImageView.swift */,
-				46C39CBE1CED346F004974FB /* RoundedView.swift */,
-				46C39CBF1CED346F004974FB /* UIAlertController Alert.swift */,
-				46C39CC01CED346F004974FB /* UIButton Title.swift */,
-				46C39CC11CED346F004974FB /* UIImage Color.swift */,
-				46C39CC21CED346F004974FB /* UIViewController UnwrapNavigationController.swift */,
+				46C39CD71CED3C22004974FB /* InsettableLabel.swift */,
+				46C39CD81CED3C22004974FB /* InsettableTextField.swift */,
+				46C39CD91CED3C22004974FB /* RenderedImageView.swift */,
+				46C39CDA1CED3C22004974FB /* RoundedView.swift */,
+				46C39CDB1CED3C22004974FB /* UIAlertController Alert.swift */,
+				46C39CDC1CED3C22004974FB /* UIButton Title.swift */,
+				46C39CDD1CED3C22004974FB /* UIImage Color.swift */,
+				46C39CDE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		46C39CDF1CED3C22004974FB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				46C39CE01CED3C22004974FB /* Accumulator.swift */,
+				46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */,
+				46C39CE21CED3C22004974FB /* Delay.swift */,
+				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
+				46C39CE41CED3C22004974FB /* Introspectable.swift */,
+				46C39CE51CED3C22004974FB /* NSError Make.swift */,
+				46C39CE61CED3C22004974FB /* NSTimer Closure.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,21 +188,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C39CCA1CED346F004974FB /* NSTimer Closure.swift in Sources */,
-				46C39CC51CED346F004974FB /* Delay.swift in Sources */,
-				46C39CC31CED346F004974FB /* Accumulator.swift in Sources */,
-				46C39CD01CED346F004974FB /* UIButton Title.swift in Sources */,
-				46C39CCD1CED346F004974FB /* RenderedImageView.swift in Sources */,
-				46C39CCB1CED346F004974FB /* InsettableLabel.swift in Sources */,
-				46C39CC41CED346F004974FB /* Array Append+Prepend.swift in Sources */,
-				46C39CCF1CED346F004974FB /* UIAlertController Alert.swift in Sources */,
-				46C39CD11CED346F004974FB /* UIImage Color.swift in Sources */,
-				46C39CD21CED346F004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
-				46C39CC61CED346F004974FB /* Enum Generator.swift in Sources */,
-				46C39CC91CED346F004974FB /* NSError Make.swift in Sources */,
-				46C39CC81CED346F004974FB /* Introspectable.swift in Sources */,
-				46C39CCE1CED346F004974FB /* RoundedView.swift in Sources */,
-				46C39CCC1CED346F004974FB /* InsettableTextField.swift in Sources */,
+				46C39CF11CED3C22004974FB /* Delay.swift in Sources */,
+				46C39CEA1CED3C22004974FB /* RoundedView.swift in Sources */,
+				46C39CEF1CED3C22004974FB /* Accumulator.swift in Sources */,
+				46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */,
+				46C39CED1CED3C22004974FB /* UIImage Color.swift in Sources */,
+				46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */,
+				46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */,
+				46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
+				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
+				46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */,
+				46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */,
+				46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */,
+				46C39CEB1CED3C22004974FB /* UIAlertController Alert.swift in Sources */,
+				46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */,
+				46C39CF51CED3C22004974FB /* NSTimer Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

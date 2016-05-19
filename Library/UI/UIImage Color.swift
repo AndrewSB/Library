@@ -6,6 +6,7 @@
 //  Copyright © 2016 Andrew Breckenridge. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 public extension UIImage {
@@ -32,3 +33,4 @@ public extension UIImage {
     }
 
 }
+#endif
