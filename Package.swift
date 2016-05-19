@@ -5,6 +5,11 @@ let package = Package(
     targets: [
         Target(
             name: "Library"
+        ),
+        Target(
+            name: "UI",
+            dependencies: ["UIKit"]
         )
-    ]
+    ],
+    exclude: ["Info.plist", "Library.xcodeproj", "README.md"]
 )
