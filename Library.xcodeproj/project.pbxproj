@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4676EBEF1CF50A0800A9D168 /* Roundable.swift */; };
 		46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD71CED3C22004974FB /* InsettableLabel.swift */; };
 		46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD81CED3C22004974FB /* InsettableTextField.swift */; };
 		46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD91CED3C22004974FB /* RenderedImageView.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4676EBEF1CF50A0800A9D168 /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C39CD31CED3498004974FB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46C39CD71CED3C22004974FB /* InsettableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsettableLabel.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				46C39CD71CED3C22004974FB /* InsettableLabel.swift */,
 				46C39CD81CED3C22004974FB /* InsettableTextField.swift */,
 				46C39CD91CED3C22004974FB /* RenderedImageView.swift */,
+				4676EBEF1CF50A0800A9D168 /* Roundable.swift */,
 				46C39CDA1CED3C22004974FB /* RoundedView.swift */,
 				46C39CDB1CED3C22004974FB /* UIAlertController Alert.swift */,
 				46C39CDC1CED3C22004974FB /* UIButton Title.swift */,
@@ -194,6 +197,7 @@
 				46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */,
 				46C39CED1CED3C22004974FB /* UIImage Color.swift in Sources */,
 				46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */,
+				4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */,
 				46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */,
 				46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
 				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
