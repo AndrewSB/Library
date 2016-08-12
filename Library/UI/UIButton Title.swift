@@ -12,20 +12,12 @@ import UIKit
 public extension UIButton {
 
     /**
-     Convenience accessor and mutator for the button's title
+     Convenience mutator for the button's title
      */
-    
-    #if swift(>=3)
-    public var title: String? {
-        get { return self.title(for: []) }
-        set { self.setTitle(title, for: []) }
+    public func setTitle(title: String,
+                         forStates states: [UIControlState] = [.Normal, .Highlighted, .Disabled, .Selected]) {
+        states.forEach { self.setTitle(title, forState: $0) }
     }
-    #else
-    public var title: String? {
-        get { return self.titleForState(.Normal) }
-        set { self.setTitle(title, forState: .Normal) }
-    }
-    #endif
 
 }
 #endif
