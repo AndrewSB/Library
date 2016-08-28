@@ -19,11 +19,11 @@ public extension UIButton {
                          forStates states: [UIControlState] = [.Normal, .Highlighted, .Disabled, .Selected]) {
         
         if animated {
+            states.forEach { self.setTitle(title, forState: $0) }
+        } else {
             UIView.performWithoutAnimation {
                 states.forEach { self.setTitle(title, forState: $0) }
             }
-        } else {
-            states.forEach { self.setTitle(title, forState: $0) }
         }
         
     }
