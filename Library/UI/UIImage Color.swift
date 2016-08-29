@@ -26,7 +26,7 @@ public extension UIImage {
         #if swift(>=3)
         let image = UIGraphicsGetImageFromCurrentImageContext()!
         #else
-        let image = UIGraphicsGetImageFromCurrentImageContext()
+        let image = UIGraphicsGetImageFromCurrentImageContext()!
         #endif
         UIGraphicsEndImageContext()
         return image

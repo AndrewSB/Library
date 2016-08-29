@@ -6,6 +6,7 @@
 //  Copyright © 2015 Andrew Breckenridge. All rights reserved.
 //
 
+#if !swift(>=3) // you dont need this in swift 3
 import Foundation
 
 /**
@@ -22,3 +23,4 @@ public func delay(delay: Double, closure: () -> Void) {
         ),
         dispatch_get_main_queue(), closure)
 }
+#endif
