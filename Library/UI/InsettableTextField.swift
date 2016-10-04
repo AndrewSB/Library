@@ -9,32 +9,19 @@
 #if os(iOS)
 import UIKit
 
-public class InsettableTextField: UITextField {
-
-    @IBInspectable public var insetX: CGFloat = 0
-    @IBInspectable public var insetY: CGFloat = 0
+open class InsettableTextField: UITextField {
+    @IBInspectable open var insetX: CGFloat = 0
+    @IBInspectable open var insetY: CGFloat = 0
     
-    // placeholder position
-    #if swift(>=3)
-    public override func textRect(forBounds bounds: CGRect) -> CGRect {
+    /// placeholder position
+    open override func textRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.insetBy(dx: insetX , dy: insetY)
     }
-    #else
-    override public func textRectForBounds(bounds: CGRect) -> CGRect {
-        return CGRectInset(bounds , insetX , insetY)
-    }
-    #endif
     
-    // text position
-    #if swift(>=3)
-    public override func editingRect(forBounds bounds: CGRect) -> CGRect {
+    /// text position
+    open override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return bounds.insetBy(dx: insetX , dy: insetY)
     }
-    #else
-    override public func editingRectForBounds(bounds: CGRect) -> CGRect {
-        return CGRectInset(bounds , insetX , insetY)
-    }
-    #endif
     
 }
 #endif
