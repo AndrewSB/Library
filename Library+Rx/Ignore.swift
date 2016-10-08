@@ -2,19 +2,19 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-protocol OptionalType {
+public protocol OptionalType {
     associatedtype T
     var asOptional: T? { get }
 }
 
 extension Optional: OptionalType {
-    var asOptional: Wrapped? {
+    public var asOptional: Wrapped? {
         return self
     }
 }
 
-extension Observable where Element: OptionalType {
-    func ignoreNil() -> Observable<Element.T> {
+public extension Observable where Element: OptionalType {
+    public func ignoreNil() -> Observable<Element.T> {
         return self
             .filter { return $0.asOptional != nil  }
             .map { return $0.asOptional! }
@@ -29,8 +29,8 @@ extension Observable where Element: OptionalType {
 //    }
 //}
 
-extension Observable where Element: Equatable {
-    func ignore(_ value: Element) -> Observable<Element> {
+public extension Observable where Element: Equatable {
+    public func ignore(_ value: Element) -> Observable<Element> {
         return filter { (e) -> Bool in
             return value != e
         }
