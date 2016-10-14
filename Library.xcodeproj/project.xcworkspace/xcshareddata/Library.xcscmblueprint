@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2CBBEC1F89AD5B9D6FC55531AC47E759B28E9D91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3E11A27202CDD68F9862A7BF882118EBB725D2C8" : 9223372036854775807,
+    "2CBBEC1F89AD5B9D6FC55531AC47E759B28E9D91" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BCBB29CE-A70C-4532-9BF5-4DD7D24F5E57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3E11A27202CDD68F9862A7BF882118EBB725D2C8" : "..\/..",
+    "2CBBEC1F89AD5B9D6FC55531AC47E759B28E9D91" : "Library\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Library",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Library.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/AndrewSB\/Library.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CBBEC1F89AD5B9D6FC55531AC47E759B28E9D91"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AndrewSB\/proxy-consumer-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E11A27202CDD68F9862A7BF882118EBB725D2C8"
+    }
+  ]
+}
