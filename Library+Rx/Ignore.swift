@@ -21,13 +21,13 @@ public extension Observable where Element: OptionalType {
     }
 }
 
-//extension SharedSequence where Element: OptionalType {
-//    func ignoreNil() -> SharedSequence<DriverSharingStrategy, Element.T> {
-//        return self.asSharedSequence()
-//            .filter { return $0.asOptional != nil }
-//            .map { return $0.asOptional! }
-//    }
-//}
+extension Driver where Element: OptionalType {
+    func ignoreNil() -> Driver<Element.T> {
+        return self
+            .filter { return $0.asOptional != nil  }
+            .map { return $0.asOptional! }
+    }
+}
 
 public extension Observable where Element: Equatable {
     public func ignore(_ value: Element) -> Observable<Element> {
@@ -36,11 +36,11 @@ public extension Observable where Element: Equatable {
         }
     }
 }
-//
-//extension Driver where Element: Equatable {
-//    func ignore(_ value: Element) -> Driver<Element> {
-//        return filter { (e) -> Bool in
-//            return value != e
-//        }
-//    }
-//}
+
+extension Driver where Element: Equatable {
+    func ignore(_ value: Element) -> Driver<Element> {
+        return filter { (e) -> Bool in
+            return value != e
+        }
+    }
+}
