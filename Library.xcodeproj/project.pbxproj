@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4656053E1DB595A900F2A790 /* UIView + Visible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656053C1DB5941F00F2A790 /* UIView + Visible.swift */; };
+		465605411DB596A700F2A790 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656053F1DB5969500F2A790 /* RxViewController.swift */; };
 		4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4676EBEF1CF50A0800A9D168 /* Roundable.swift */; };
 		4678A6D41DA9B18E0009AAA1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */; };
 		4678A6D61DA9B1E80009AAA1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		4656053C1DB5941F00F2A790 /* UIView + Visible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Visible.swift"; sourceTree = "<group>"; };
+		4656053F1DB5969500F2A790 /* RxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
 		4676EBEF1CF50A0800A9D168 /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
 		4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				46A91C221DA866B200A1A2BB /* Info.plist */,
 				46A91C271DA866BD00A1A2BB /* Ignore.swift */,
 				4656053C1DB5941F00F2A790 /* UIView + Visible.swift */,
+				4656053F1DB5969500F2A790 /* RxViewController.swift */,
 			);
 			path = "Library+Rx";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				46A91C281DA866BD00A1A2BB /* Ignore.swift in Sources */,
 				4656053E1DB595A900F2A790 /* UIView + Visible.swift in Sources */,
+				465605411DB596A700F2A790 /* RxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
