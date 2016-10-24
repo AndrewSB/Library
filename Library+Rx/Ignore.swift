@@ -13,6 +13,7 @@ extension Optional: AnyOptional {
     }
 }
 
+
 public extension Observable where Element: AnyOptional {
     public func ignoreNil() -> Observable<Element.T> {
         return self
@@ -21,8 +22,8 @@ public extension Observable where Element: AnyOptional {
     }
 }
 
-public extension Driver where Element: AnyOptional {
-    func ignoreNil() -> Driver<Element.T> {
+public extension SharedSequence where Element: AnyOptional {
+    public func ignoreNil() -> SharedSequence<S, Element.T> {
         return self
             .filter { return $0.asOptional != nil  }
             .map { return $0.asOptional! }
@@ -31,16 +32,16 @@ public extension Driver where Element: AnyOptional {
 
 public extension Observable where Element: Equatable {
     public func ignore(_ value: Element) -> Observable<Element> {
-        return filter { (e) -> Bool in
+        return self.filter({ e in
             return value != e
-        }
+        })
     }
 }
 
-public extension Driver where Element: Equatable {
-    func ignore(_ value: Element) -> Driver<Element> {
-        return filter { (e) -> Bool in
+public extension SharedSequence where Element: Equatable {
+    public func ignore(_ value: Element) -> SharedSequence<S, Element> {
+        return self.filter({ e in
             return value != e
-        }
+        })
     }
 }
