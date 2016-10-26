@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 
 public extension Reactive where Base: UIView {
-    
+
     /**
      Bindable sink for `visible` property.
      */

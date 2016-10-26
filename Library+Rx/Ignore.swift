@@ -13,7 +13,6 @@ extension Optional: AnyOptional {
     }
 }
 
-
 public extension Observable where Element: AnyOptional {
     public func ignoreNil() -> Observable<Element.T> {
         return self

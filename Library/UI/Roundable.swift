@@ -26,13 +26,13 @@ public protocol Roundable {
 public extension Roundable where Self: UIView {
 
     var roundBy: RoundBy { return .Height }
-    
+
     func round() {
         let cornerRadius = (self.roundBy == .Height ? self.frame.height : self.frame.width) / 2
-        
+
         self.layer.cornerRadius = cornerRadius
         self.clipsToBounds = true
     }
-    
+
 }
 #endif

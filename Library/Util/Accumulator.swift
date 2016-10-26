@@ -15,13 +15,13 @@
  :returns: A closure that when called returns the initial with the incrementBy param mutliplied.
  */
 public func accumulator(initial: Int = 0, incrementBy: Int = 1) -> (() -> Int) {
-    
+
     // Start at one below inital, so that the first call starts with the initial value.
     var value = initial - 1
-    
+
     return {
         value += incrementBy
         return value
     }
-    
+
 }

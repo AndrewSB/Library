@@ -10,14 +10,14 @@
 import UIKit
 
 public extension UIViewController {
-    
+
     public func unwrapNavCon() -> UIViewController {
-    
+
         let unwrappedViewController = (self as? UINavigationController)?.viewControllers[0]
-        
+
         return unwrappedViewController ?? self
-        
+
     }
-    
+
 }
 #endif

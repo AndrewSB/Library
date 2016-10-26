@@ -181,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46A0AD461B719D6200466082 /* Build configuration list for PBXNativeTarget "Library" */;
 			buildPhases = (
+				46712A2A1DC14E4F00463EDF /* swiftlint */,
 				46A0AD2B1B719D6200466082 /* Sources */,
 				46A0AD2C1B719D6200466082 /* Frameworks */,
 				46A0AD2D1B719D6200466082 /* Headers */,
@@ -199,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46A91C261DA866B200A1A2BB /* Build configuration list for PBXNativeTarget "RxLibrary" */;
 			buildPhases = (
+				46712A2B1DC14E6B00463EDF /* swiftlint */,
 				46A91C1A1DA866B200A1A2BB /* Sources */,
 				46A91C1B1DA866B200A1A2BB /* Frameworks */,
 				46A91C1C1DA866B200A1A2BB /* Headers */,
@@ -267,6 +269,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46712A2A1DC14E4F00463EDF /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		46712A2B1DC14E6B00463EDF /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46A0AD2B1B719D6200466082 /* Sources */ = {

@@ -13,14 +13,13 @@ import UIKit
  Convenience UIImageView subclass that exposes the `renderingMode` as a instance variable
  */
 public class RenderedImageView: UIImageView {
-    
+
     #if swift(>=3)
     public var renderingMode: UIImageRenderingMode = .alwaysTemplate
     #else
     public var renderingMode: UIImageRenderingMode = .AlwaysTemplate
     #endif
-    
-    
+
     override public func awakeFromNib() {
         super.awakeFromNib()
         #if swift(>=3)
@@ -29,6 +28,6 @@ public class RenderedImageView: UIImageView {
         self.image = self.image!.imageWithRenderingMode(renderingMode)
         #endif
     }
-    
+
 }
 #endif

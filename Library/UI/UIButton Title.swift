@@ -11,14 +11,18 @@ import UIKit
 
 public extension UIButton {
 
+    private static var allStates: [UIControlState] {
+        return [.normal, .highlighted, .disabled, .selected]
+    }
+
     /**
      Convenience mutator for the button's title
      */
     #if swift(>=3)
     public func setTitle(title: String,
                          animated: Bool = true,
-                         forStates states: [UIControlState] = [.normal, .highlighted, .disabled, .selected]) {
-        
+                         forStates states: [UIControlState] = UIButton.allStates) {
+
         if animated {
             states.forEach { state in self.setTitle(title, for: state) }
         } else {
@@ -26,13 +30,13 @@ public extension UIButton {
                 states.forEach { state in self.setTitle(title, for: state) }
             }
         }
-        
+
     }
     #else
     public func setTitle(title: String,
                          animated: Bool = true,
-                         forStates states: [UIControlState] = [.Normal, .Highlighted, .Disabled, .Selected]) {
-        
+                         forStates states: [UIControlState] = UIButton.allStates) {
+
         if animated {
             states.forEach { self.setTitle(title, forState: $0) }
         } else {
@@ -40,10 +44,9 @@ public extension UIButton {
                 states.forEach { self.setTitle(title, forState: $0) }
             }
         }
-        
+
     }
     #endif
 
-    
 }
 #endif

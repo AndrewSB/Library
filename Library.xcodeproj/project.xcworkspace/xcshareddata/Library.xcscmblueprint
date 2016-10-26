@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BCBB29CE-A70C-4532-9BF5-4DD7D24F5E57",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "3E11A27202CDD68F9862A7BF882118EBB725D2C8" : "..\/..",
+    "3E11A27202CDD68F9862A7BF882118EBB725D2C8" : "proxy-consumer-ios\/",
     "2CBBEC1F89AD5B9D6FC55531AC47E759B28E9D91" : "Library\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Library",
