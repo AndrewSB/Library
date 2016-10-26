@@ -29,6 +29,8 @@
 		46C39CF11CED3C22004974FB /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE21CED3C22004974FB /* Delay.swift */; };
 		46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE31CED3C22004974FB /* Enum Generator.swift */; };
 		46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE41CED3C22004974FB /* Introspectable.swift */; };
+		46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE51CED3C22004974FB /* NSError Make.swift */; };
+		46C39CF51CED3C22004974FB /* NSTimer Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE61CED3C22004974FB /* NSTimer Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		46C39CE21CED3C22004974FB /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		46C39CE31CED3C22004974FB /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
 		46C39CE41CED3C22004974FB /* Introspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introspectable.swift; sourceTree = "<group>"; };
+		46C39CE51CED3C22004974FB /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
+		46C39CE61CED3C22004974FB /* NSTimer Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer Closure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
 				46712A2E1DC1523A00463EDF /* View + Loading Indicatable */,
+				46C39CE51CED3C22004974FB /* NSError Make.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -328,6 +333,7 @@
 				4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */,
 				46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */,
 				46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
+				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
 				46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */,
 				46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */,
 				46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */,
