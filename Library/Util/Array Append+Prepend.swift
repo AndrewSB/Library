@@ -12,7 +12,7 @@ public extension Array {
 
     /**
      Mutates the array and returns self to allow chaining
-     
+
      :param: newElement The new element to be inserted at the end of the array
 
      :returns: The same instance as the receiver. This allows chaining.

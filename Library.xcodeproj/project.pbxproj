@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4656053E1DB595A900F2A790 /* UIView + Visible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656053C1DB5941F00F2A790 /* UIView + Visible.swift */; };
 		465605411DB596A700F2A790 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656053F1DB5969500F2A790 /* RxViewController.swift */; };
+		46712A2D1DC151D100463EDF /* LoadingIndicitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46712A2C1DC151D100463EDF /* LoadingIndicitable.swift */; };
+		46712A301DC1524600463EDF /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46712A2F1DC1524600463EDF /* LoadingViewController.swift */; };
 		4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4676EBEF1CF50A0800A9D168 /* Roundable.swift */; };
 		4678A6D41DA9B18E0009AAA1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */; };
 		4678A6D61DA9B1E80009AAA1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		4656053C1DB5941F00F2A790 /* UIView + Visible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Visible.swift"; sourceTree = "<group>"; };
 		4656053F1DB5969500F2A790 /* RxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		46712A2C1DC151D100463EDF /* LoadingIndicitable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingIndicitable.swift; sourceTree = "<group>"; };
+		46712A2F1DC1524600463EDF /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		4676EBEF1CF50A0800A9D168 /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
 		4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46712A2E1DC1523A00463EDF /* View + Loading Indicatable */ = {
+			isa = PBXGroup;
+			children = (
+				46712A2C1DC151D100463EDF /* LoadingIndicitable.swift */,
+				46712A2F1DC1524600463EDF /* LoadingViewController.swift */,
+			);
+			name = "View + Loading Indicatable";
+			sourceTree = "<group>";
+		};
 		4678A6D21DA9B18E0009AAA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +160,7 @@
 				46C39CE21CED3C22004974FB /* Delay.swift */,
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
+				46712A2E1DC1523A00463EDF /* View + Loading Indicatable */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -303,6 +317,7 @@
 				46C39CF11CED3C22004974FB /* Delay.swift in Sources */,
 				46C39CEA1CED3C22004974FB /* RoundedView.swift in Sources */,
 				46C39CEF1CED3C22004974FB /* Accumulator.swift in Sources */,
+				46712A301DC1524600463EDF /* LoadingViewController.swift in Sources */,
 				46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */,
 				46C39CED1CED3C22004974FB /* UIImage Color.swift in Sources */,
 				46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */,
@@ -314,6 +329,7 @@
 				46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */,
 				46C39CEB1CED3C22004974FB /* UIAlertController Alert.swift in Sources */,
 				46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */,
+				46712A2D1DC151D100463EDF /* LoadingIndicitable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

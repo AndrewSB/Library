@@ -12,5 +12,5 @@ public extension Reactive where Base: UIView {
             view.isHidden = !visible
         }
     }
-    
+
 }
