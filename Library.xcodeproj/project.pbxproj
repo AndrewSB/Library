@@ -30,7 +30,7 @@
 		46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE31CED3C22004974FB /* Enum Generator.swift */; };
 		46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE41CED3C22004974FB /* Introspectable.swift */; };
 		46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE51CED3C22004974FB /* NSError Make.swift */; };
-		46C39CF51CED3C22004974FB /* NSTimer Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE61CED3C22004974FB /* NSTimer Closure.swift */; };
+		46DA9E161DCD312D0085ECDF /* Bool + AllTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA9E151DCD312D0085ECDF /* Bool + AllTrue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,7 @@
 		46C39CE31CED3C22004974FB /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
 		46C39CE41CED3C22004974FB /* Introspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introspectable.swift; sourceTree = "<group>"; };
 		46C39CE51CED3C22004974FB /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
-		46C39CE61CED3C22004974FB /* NSTimer Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimer Closure.swift"; sourceTree = "<group>"; };
+		46DA9E151DCD312D0085ECDF /* Bool + AllTrue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bool + AllTrue.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +169,7 @@
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
 				46712A2E1DC1523A00463EDF /* View + Loading Indicatable */,
 				46C39CE51CED3C22004974FB /* NSError Make.swift */,
+				46DA9E151DCD312D0085ECDF /* Bool + AllTrue.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -331,6 +332,7 @@
 				46712A321DC1535200463EDF /* UINavigationController Push+Completion.swift in Sources */,
 				46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */,
 				4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */,
+				46DA9E161DCD312D0085ECDF /* Bool + AllTrue.swift in Sources */,
 				46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */,
 				46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
 				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
