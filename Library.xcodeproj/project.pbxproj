@@ -16,6 +16,11 @@
 		4678A6D41DA9B18E0009AAA1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */; };
 		4678A6D61DA9B1E80009AAA1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */; };
 		46930DFE1DE134B1006738A5 /* Dictionary Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */; };
+		46930E001DE15C23006738A5 /* Array + Last Occurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */; };
+		46930E0A1DE24184006738A5 /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0AD301B719D6200466082 /* Library.framework */; };
+		46930E121DE2429F006738A5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46930E101DE2429F006738A5 /* Nimble.framework */; };
+		46930E131DE2429F006738A5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46930E111DE2429F006738A5 /* Quick.framework */; };
+		46930E161DE242BB006738A5 /* Array + Last Occourance Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */; };
 		46A91C281DA866BD00A1A2BB /* Ignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A91C271DA866BD00A1A2BB /* Ignore.swift */; };
 		46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD71CED3C22004974FB /* InsettableLabel.swift */; };
 		46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD81CED3C22004974FB /* InsettableTextField.swift */; };
@@ -33,6 +38,16 @@
 		46DA9E161DCD312D0085ECDF /* Bool + AllTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA9E151DCD312D0085ECDF /* Bool + AllTrue.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		46930E0B1DE24184006738A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A0AD271B719D6200466082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A0AD2F1B719D6200466082;
+			remoteInfo = Library;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4656053C1DB5941F00F2A790 /* UIView + Visible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Visible.swift"; sourceTree = "<group>"; };
 		4656053F1DB5969500F2A790 /* RxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +58,12 @@
 		4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary Operator+.swift"; sourceTree = "<group>"; };
+		46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Last Occurrence.swift"; sourceTree = "<group>"; };
+		46930E051DE24184006738A5 /* LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46930E091DE24184006738A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46930E101DE2429F006738A5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		46930E111DE2429F006738A5 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Last Occourance Spec.swift"; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A91C1F1DA866B200A1A2BB /* RxLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A91C221DA866B200A1A2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +86,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		46930E021DE24184006738A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46930E0A1DE24184006738A5 /* Library.framework in Frameworks */,
+				46930E121DE2429F006738A5 /* Nimble.framework in Frameworks */,
+				46930E131DE2429F006738A5 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46A0AD2C1B719D6200466082 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -102,11 +133,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		46930E061DE24184006738A5 /* LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */,
+				46930E091DE24184006738A5 /* Info.plist */,
+				46930E141DE242A2006738A5 /* Frameworks */,
+			);
+			path = LibraryTests;
+			sourceTree = "<group>";
+		};
+		46930E141DE242A2006738A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46930E101DE2429F006738A5 /* Nimble.framework */,
+				46930E111DE2429F006738A5 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46A0AD261B719D6200466082 = {
 			isa = PBXGroup;
 			children = (
 				46C39CD51CED3C22004974FB /* Library */,
 				46A91C201DA866B200A1A2BB /* Library+Rx */,
+				46930E061DE24184006738A5 /* LibraryTests */,
 				46A0AD311B719D6200466082 /* Products */,
 				4678A6D21DA9B18E0009AAA1 /* Frameworks */,
 			);
@@ -117,6 +168,7 @@
 			children = (
 				46A0AD301B719D6200466082 /* Library.framework */,
 				46A91C1F1DA866B200A1A2BB /* RxLibrary.framework */,
+				46930E051DE24184006738A5 /* LibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +216,7 @@
 			children = (
 				46C39CE01CED3C22004974FB /* Accumulator.swift */,
 				46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */,
+				46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */,
 				46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */,
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
@@ -194,6 +247,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		46930E041DE24184006738A5 /* LibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46930E0D1DE24184006738A5 /* Build configuration list for PBXNativeTarget "LibraryTests" */;
+			buildPhases = (
+				46930E011DE24184006738A5 /* Sources */,
+				46930E021DE24184006738A5 /* Frameworks */,
+				46930E031DE24184006738A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46930E0C1DE24184006738A5 /* PBXTargetDependency */,
+			);
+			name = LibraryTests;
+			productName = LibraryTests;
+			productReference = 46930E051DE24184006738A5 /* LibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		46A0AD2F1B719D6200466082 /* Library */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46A0AD461B719D6200466082 /* Build configuration list for PBXNativeTarget "Library" */;
@@ -238,10 +309,15 @@
 		46A0AD271B719D6200466082 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Andrew Breckenridge";
 				TargetAttributes = {
+					46930E041DE24184006738A5 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
 					46A0AD2F1B719D6200466082 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -266,11 +342,19 @@
 			targets = (
 				46A0AD2F1B719D6200466082 /* Library */,
 				46A91C1E1DA866B200A1A2BB /* RxLibrary */,
+				46930E041DE24184006738A5 /* LibraryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		46930E031DE24184006738A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46A0AD2E1B719D6200466082 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +403,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		46930E011DE24184006738A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46930E161DE242BB006738A5 /* Array + Last Occourance Spec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46A0AD2B1B719D6200466082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +430,7 @@
 				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
 				46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */,
 				46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */,
+				46930E001DE15C23006738A5 /* Array + Last Occurrence.swift in Sources */,
 				46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */,
 				46C39CEB1CED3C22004974FB /* UIAlertController Alert.swift in Sources */,
 				46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */,
@@ -357,7 +450,60 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		46930E0C1DE24184006738A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A0AD2F1B719D6200466082 /* Library */;
+			targetProxy = 46930E0B1DE24184006738A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		46930E0E1DE24184006738A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.LibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46930E0F1DE24184006738A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfw.LibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		46A0AD441B719D6200466082 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -554,6 +700,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		46930E0D1DE24184006738A5 /* Build configuration list for PBXNativeTarget "LibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46930E0E1DE24184006738A5 /* Debug */,
+				46930E0F1DE24184006738A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		46A0AD2A1B719D6200466082 /* Build configuration list for PBXProject "Library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
