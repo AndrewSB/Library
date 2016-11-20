@@ -15,6 +15,7 @@
 		4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4676EBEF1CF50A0800A9D168 /* Roundable.swift */; };
 		4678A6D41DA9B18E0009AAA1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */; };
 		4678A6D61DA9B1E80009AAA1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */; };
+		46930DFE1DE134B1006738A5 /* Dictionary Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */; };
 		46A91C281DA866BD00A1A2BB /* Ignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A91C271DA866BD00A1A2BB /* Ignore.swift */; };
 		46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD71CED3C22004974FB /* InsettableLabel.swift */; };
 		46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CD81CED3C22004974FB /* InsettableTextField.swift */; };
@@ -41,6 +42,7 @@
 		4676EBEF1CF50A0800A9D168 /* Roundable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roundable.swift; sourceTree = "<group>"; };
 		4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary Operator+.swift"; sourceTree = "<group>"; };
 		46A0AD301B719D6200466082 /* Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A91C1F1DA866B200A1A2BB /* RxLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A91C221DA866B200A1A2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				46C39CE01CED3C22004974FB /* Accumulator.swift */,
 				46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */,
+				46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */,
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
 				46712A2E1DC1523A00463EDF /* View + Loading Indicatable */,
@@ -329,6 +332,7 @@
 				46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */,
 				4676EBF01CF50A0800A9D168 /* Roundable.swift in Sources */,
 				46DA9E161DCD312D0085ECDF /* Bool + AllTrue.swift in Sources */,
+				46930DFE1DE134B1006738A5 /* Dictionary Operator+.swift in Sources */,
 				46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */,
 				46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */,
 				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
