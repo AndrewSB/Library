@@ -26,7 +26,6 @@
 		46C39CEE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CDE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift */; };
 		46C39CEF1CED3C22004974FB /* Accumulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE01CED3C22004974FB /* Accumulator.swift */; };
 		46C39CF01CED3C22004974FB /* Array Append+Prepend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */; };
-		46C39CF11CED3C22004974FB /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE21CED3C22004974FB /* Delay.swift */; };
 		46C39CF21CED3C22004974FB /* Enum Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE31CED3C22004974FB /* Enum Generator.swift */; };
 		46C39CF31CED3C22004974FB /* Introspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE41CED3C22004974FB /* Introspectable.swift */; };
 		46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C39CE51CED3C22004974FB /* NSError Make.swift */; };
@@ -57,7 +56,6 @@
 		46C39CDE1CED3C22004974FB /* UIViewController UnwrapNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController UnwrapNavigationController.swift"; sourceTree = "<group>"; };
 		46C39CE01CED3C22004974FB /* Accumulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accumulator.swift; sourceTree = "<group>"; };
 		46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array Append+Prepend.swift"; sourceTree = "<group>"; };
-		46C39CE21CED3C22004974FB /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		46C39CE31CED3C22004974FB /* Enum Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enum Generator.swift"; sourceTree = "<group>"; };
 		46C39CE41CED3C22004974FB /* Introspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Introspectable.swift; sourceTree = "<group>"; };
 		46C39CE51CED3C22004974FB /* NSError Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError Make.swift"; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 			children = (
 				46C39CE01CED3C22004974FB /* Accumulator.swift */,
 				46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */,
-				46C39CE21CED3C22004974FB /* Delay.swift */,
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
 				46712A2E1DC1523A00463EDF /* View + Loading Indicatable */,
@@ -323,7 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C39CF11CED3C22004974FB /* Delay.swift in Sources */,
 				46C39CEA1CED3C22004974FB /* RoundedView.swift in Sources */,
 				46C39CEF1CED3C22004974FB /* Accumulator.swift in Sources */,
 				46712A301DC1524600463EDF /* LoadingViewController.swift in Sources */,
