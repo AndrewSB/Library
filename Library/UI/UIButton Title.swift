@@ -19,9 +19,9 @@ public extension UIButton {
      Convenience mutator for the button's title
      */
     #if swift(>=3)
-    public func setTitle(title: String,
-                         animated: Bool = true,
-                         forStates states: [UIControlState] = UIButton.allStates) {
+    public func set(title: String,
+                    animated: Bool = true,
+                    forStates states: [UIControlState] = UIButton.allStates) {
 
         if animated {
             states.forEach { state in self.setTitle(title, for: state) }
