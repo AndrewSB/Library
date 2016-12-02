@@ -7,39 +7,66 @@ private let thingImLookingFor = "🔥"
 
 class ArrayLastOccouranceSpec: QuickSpec {
     override func spec() {
-        describe("an array with elements") {
+        describe("an array which") {
             var array: [String]!
 
-            describe("when the array is empty") {
-                beforeEach {
-                    array = []
-                }
+            describe("is empty") {
+                beforeEach { array = [] }
 
-                it("doensn't find the element") {
+                it("finds nothing") {
                     expect(array.lastIndex(of: thingImLookingFor)).to(beNil())
                 }
             }
 
-            describe("when there is one element") {
-                it("finds the element") {
+            describe("has one element") {
+                context("which is the thing you're looking for") {
+                    beforeEach { array = [thingImLookingFor] }
 
+                    it("matches") {
+                        expect(array.lastIndex(of: thingImLookingFor)).toNot(beNil())
+                    }
+                }
+
+                context("which is junk") {
+                    beforeEach { array = ["junk"] }
+
+                    it("finds nothing") {
+                        expect(array.lastIndex(of: thingImLookingFor)).to(beNil())
+                    }
                 }
             }
 
-            describe("when the array has many elements") {
-                context("are no occourances of the expected element") {
-                    it("finds nothing") {}
+            describe("has many elements") {
+                beforeEach {
+                    array = ["many", "many", "different", "disparate", "elements"]
+                }
+                
+                context("has 0 occourances of the expected element") {
+                    it("finds nothing") {
+                        expect(array.lastIndex(of: thingImLookingFor)).to(beNil())
+                    }
                 }
 
-                context("is one occourance of the expected element") {
-                    it("finds it") {}
+                context("has 1 occourance of the expected element") {
+                    beforeEach { array!.append(thingImLookingFor) }
+
+                    it("finds it") {
+                        expect(array.lastIndex(of: thingImLookingFor)).to(equal(array.index(of: thingImLookingFor)))
+                    }
                 }
 
-                context("are many occourances of the expected element") {
-                    it("finds the last one") {}
+                context("many occourances of the expected element") {
+                    beforeEach {
+                        array.insert(thingImLookingFor, at: 0)
+                        array.insert(thingImLookingFor, at: 2)
+                        array.insert(thingImLookingFor, at: 4)
+                    }
+
+                    it("finds the last one") {
+                        expect(array.lastIndex(of: thingImLookingFor)).to(equal(4))
+                    }
                 }
             }
-
         }
     }
 }
