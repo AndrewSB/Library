@@ -138,7 +138,7 @@
 		46930E061DE24184006738A5 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */,
+				46F466871DF2092800C7A346 /* LibraryTests */,
 				46930E091DE24184006738A5 /* Info.plist */,
 			);
 			path = Tests;
@@ -225,6 +225,15 @@
 				46C39CDF1CED3C22004974FB /* Util */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		46F466871DF2092800C7A346 /* LibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */,
+			);
+			name = LibraryTests;
+			path = LibraryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

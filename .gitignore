@@ -1,5 +1,9 @@
 .DS_Store
+
+# swift package manager
 .build/
+Packages/
+
 
 # Created by https://www.gitignore.io
 
