@@ -254,6 +254,7 @@
 				46930E011DE24184006738A5 /* Sources */,
 				46930E021DE24184006738A5 /* Frameworks */,
 				46930E031DE24184006738A5 /* Resources */,
+				46F466851DF0F0AD00C7A346 /* carthage copy-frameworks */,
 			);
 			buildRules = (
 			);
@@ -399,6 +400,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		46F466851DF0F0AD00C7A346 /* carthage copy-frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+			);
+			name = "carthage copy-frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -707,6 +724,7 @@
 				46930E0F1DE24184006738A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46A0AD2A1B719D6200466082 /* Build configuration list for PBXProject "Library" */ = {
 			isa = XCConfigurationList;
