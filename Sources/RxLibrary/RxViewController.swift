@@ -2,7 +2,7 @@ import UIKit
 import RxSwift
 
 /**
- A convinience class that embeds a disposeBag into a viewController
+ A convinient UIViewController that has an embedded disposeBag
  */
 open class RxViewController: UIViewController {
 

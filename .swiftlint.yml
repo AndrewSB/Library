@@ -2,5 +2,5 @@ disabled_rules:
 opt_in_rules:
   - empty_count
 included:
-  - Library
-  - Library+Rx
+  - Sources
+  - Tests
