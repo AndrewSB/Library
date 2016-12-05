@@ -232,7 +232,6 @@
 			children = (
 				46930E151DE242BB006738A5 /* Array + Last Occourance Spec.swift */,
 			);
-			name = LibraryTests;
 			path = LibraryTests;
 			sourceTree = "<group>";
 		};
