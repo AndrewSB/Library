@@ -6,3 +6,9 @@ machine:
 
 general:
   build_dir: circle # this is set to remove the conflict with the existing folder on circle's machine (~/Library)
+
+dependencies:
+  pre:
+     - yes | snapshot reset_simulators # temp fix for circle CI bug https://discuss.circleci.com/t/multiple-ios-simulators-available-for-single-os-device-configurations/7854/15
+  cache_directories:
+     - Carthage
