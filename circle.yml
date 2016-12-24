@@ -5,7 +5,7 @@ machine:
     LANG: en_US.UTF-8
 
 general:
-  build_dir: circle # this is set to remove the conflict with the existing folder on circle's machine (~/Library)
+#  build_dir: circle # this is set to remove the conflict with the existing folder on circle's machine (~/Library)
 
 dependencies:
   pre:
