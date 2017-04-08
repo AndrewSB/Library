@@ -13,8 +13,8 @@ import UIKit
 #endif
 
 public enum RoundBy {
-    case Height
-    case Width
+    case height
+    case width
 }
 
 public protocol Roundable {
@@ -25,10 +25,10 @@ public protocol Roundable {
 #if os(iOS)
 public extension Roundable where Self: UIView {
 
-    var roundBy: RoundBy { return .Height }
+    var roundBy: RoundBy { return .height }
 
     func round() {
-        let cornerRadius = (self.roundBy == .Height ? self.frame.height : self.frame.width) / 2
+        let cornerRadius = (self.roundBy == .height ? self.frame.height : self.frame.width) / 2
 
         self.layer.cornerRadius = cornerRadius
         self.clipsToBounds = true

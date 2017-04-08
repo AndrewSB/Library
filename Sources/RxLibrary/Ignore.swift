@@ -3,7 +3,7 @@ import RxSwift
 import RxCocoa
 
 public protocol AnyOptional {
-    associatedtype T
+    associatedtype T // swiftlint:disable:this type_name
     var asOptional: T? { get }
 }
 
@@ -31,16 +31,16 @@ public extension SharedSequence where Element: AnyOptional {
 
 public extension Observable where Element: Equatable {
     public func ignore(_ value: Element) -> Observable<Element> {
-        return self.filter({ e in
-            return value != e
+        return self.filter({ element in
+            return value != element
         })
     }
 }
 
 public extension SharedSequence where Element: Equatable {
     public func ignore(_ value: Element) -> SharedSequence<S, Element> {
-        return self.filter({ e in
-            return value != e
+        return self.filter({ element in
+            return value != element
         })
     }
 }

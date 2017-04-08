@@ -16,7 +16,6 @@
 		4678A6D41DA9B18E0009AAA1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */; };
 		4678A6D61DA9B1E80009AAA1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */; };
 		46930DFE1DE134B1006738A5 /* Dictionary Operator+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */; };
-		46930E001DE15C23006738A5 /* Array + Last Occurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */; };
 		46930E0A1DE24184006738A5 /* Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0AD301B719D6200466082 /* Library.framework */; };
 		46930E121DE2429F006738A5 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46930E101DE2429F006738A5 /* Nimble.framework */; };
 		46930E131DE2429F006738A5 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46930E111DE2429F006738A5 /* Quick.framework */; };
@@ -58,7 +57,6 @@
 		4678A6D31DA9B18E0009AAA1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		4678A6D51DA9B1E80009AAA1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary Operator+.swift"; sourceTree = "<group>"; };
-		46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array + Last Occurrence.swift"; sourceTree = "<group>"; };
 		46930E051DE24184006738A5 /* LibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46930E091DE24184006738A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46930E101DE2429F006738A5 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Tests/Frameworks/Nimble.framework; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 			children = (
 				46C39CE01CED3C22004974FB /* Accumulator.swift */,
 				46C39CE11CED3C22004974FB /* Array Append+Prepend.swift */,
-				46930DFF1DE15C23006738A5 /* Array + Last Occurrence.swift */,
 				46930DFD1DE134B1006738A5 /* Dictionary Operator+.swift */,
 				46C39CE31CED3C22004974FB /* Enum Generator.swift */,
 				46C39CE41CED3C22004974FB /* Introspectable.swift */,
@@ -455,7 +452,6 @@
 				46C39CF41CED3C22004974FB /* NSError Make.swift in Sources */,
 				46C39CE81CED3C22004974FB /* InsettableTextField.swift in Sources */,
 				46C39CE91CED3C22004974FB /* RenderedImageView.swift in Sources */,
-				46930E001DE15C23006738A5 /* Array + Last Occurrence.swift in Sources */,
 				46C39CEC1CED3C22004974FB /* UIButton Title.swift in Sources */,
 				46C39CEB1CED3C22004974FB /* UIAlertController Alert.swift in Sources */,
 				46C39CE71CED3C22004974FB /* InsettableLabel.swift in Sources */,

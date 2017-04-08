@@ -20,16 +20,14 @@ public protocol Introspectable {
 
 public extension Introspectable where Self: Any {
     public var properties: [String: Any]? {
-        get {
-            let mirror = Mirror(reflecting: self)
+        let mirror = Mirror(reflecting: self)
 
-            return mirror.children.reduce([String: Any]()) { (acc, cur) in
-                var acc = acc
-                if let name = cur.label {
-                    acc[name] = cur.value
-                }
-                return acc
+        return mirror.children.reduce([String: Any]()) { (acc, cur) in
+            var acc = acc
+            if let name = cur.label {
+                acc[name] = cur.value
             }
+            return acc
         }
     }
 }

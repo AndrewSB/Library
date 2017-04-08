@@ -11,7 +11,7 @@ import UIKit
 extension UINavigationController {
     public func push(viewController: UIViewController,
                      animated: Bool,
-                     completion: @escaping () -> ()) {
+                     completion: @escaping () -> Void) {
 
         self.pushViewController(viewController, animated: animated)
 
@@ -22,10 +22,10 @@ extension UINavigationController {
 
         coordinator.animate(
             // pass nil here or do something animated if you'd like, e.g.:
-            alongsideTransition: { context in
+            alongsideTransition: { _ in
                 viewController.setNeedsStatusBarAppearanceUpdate()
             },
-            completion: { context in
+            completion: { _ in
                 completion()
             }
         )

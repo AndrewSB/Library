@@ -19,7 +19,7 @@ open class LoadingViewController: UIViewController {
     }
 
     open var loadingView: UIActivityIndicatorView {
-        get { return self.view as! UIActivityIndicatorView } //swiftlint:disable:this force_cast
+        return self.view as! UIActivityIndicatorView //swiftlint:disable:this force_cast
     }
 
     open func show() {
@@ -35,11 +35,9 @@ open class LoadingViewController: UIViewController {
 public extension UIViewController {
 
     public var loader: LoadingViewController {
-        get {
             return childViewControllers
                 .flatMap { $0 as? LoadingViewController }
                 .first ?? self.createAndAddLoader()
-        }
     }
 
     fileprivate func createAndAddLoader() -> LoadingViewController {

@@ -40,7 +40,7 @@ class ArrayLastOccouranceSpec: QuickSpec {
                 beforeEach {
                     array = ["many", "many", "different", "disparate", "elements"]
                 }
-                
+
                 context("has 0 occourances of the expected element") {
                     it("finds nothing") {
                         expect(array.lastIndex(of: thingImLookingFor)).to(beNil())

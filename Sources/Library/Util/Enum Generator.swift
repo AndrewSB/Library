@@ -12,7 +12,7 @@ import Foundation
 public protocol EnumCollection: Hashable {}
 extension EnumCollection {
     static func cases() -> AnySequence<Self> {
-        typealias S = Self
+        typealias S = Self // swiftlint:disable:this type_name
         return AnySequence { () -> AnyIterator<S> in
             var raw = 0
             return AnyIterator {
